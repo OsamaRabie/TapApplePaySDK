@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ApplePaySDKExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ApplePaySDKExample
+
+end
+
+target 'tapapplepaysdk' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for tapapplepaysdk
+    pod 'TapNetworkManagerV2'
+    pod 'TapAdditionsKitV2'
+end
