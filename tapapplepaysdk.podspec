@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "tapapplepaysdk"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Provide an interface and an easy wrapper for Apple Pay functionalities."
 
   # This description is used to generate tags and improve search results.
@@ -99,7 +99,7 @@ Go all the way until Apple Pay tokenisation data."
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "tapapplepaysdk/Core/**/*.{h,m,swift}"
+  spec.source_files  = "tapapplepaysdk/tapapplepaysdk/Core/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -114,7 +114,7 @@ Go all the way until Apple Pay tokenisation data."
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "tapapplepaysdk/Core/Assets/**/*.{json,xib,pdf,png,gif,plist}"
+  spec.resources = "tapapplepaysdk/tapapplepaysdk/Core/Assets/**/*.{json,xib,pdf,png,gif,plist}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
