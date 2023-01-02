@@ -171,9 +171,7 @@
 		E84B8BA92941ED1E00DFCDD1 /* tapapplepaysdk */ = {
 			isa = PBXGroup;
 			children = (
-				E8CD2E0D2962CD1A00BE400B /* Assets */,
-				E8CD2E0F2962CD1A00BE400B /* private */,
-				E8CD2DFD2962CD1A00BE400B /* public */,
+				E8CD2E3A2962E7E000BE400B /* Core */,
 				E84B8BAA2941ED1E00DFCDD1 /* tapapplepaysdk.h */,
 				E84B8BAB2941ED1E00DFCDD1 /* tapapplepaysdk.docc */,
 			);
@@ -304,6 +302,16 @@
 				E8CD2E312962CD7300BE400B /* YBTextPicker_unchecked.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		E8CD2E3A2962E7E000BE400B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD2E0D2962CD1A00BE400B /* Assets */,
+				E8CD2E0F2962CD1A00BE400B /* private */,
+				E8CD2DFD2962CD1A00BE400B /* public */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
