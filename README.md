@@ -5,6 +5,19 @@ A SDK that provides an interface to show, process and authorize Pay in your a
 [![Platform](https://img.shields.io/cocoapods/p/TapThemeManager2020.svg?style=flat)](https://github.com/Tap-Payments/TapThemeManger-iOS)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TapApplePayKit-iOS.svg?style=flat)](https://img.shields.io/Tap-Payments/v/TapApplePaySDK)
 
+# TapApplePaySDK
+
+- [Requirements](#requirements)
+  
+- [Installation](#installation)
+  
+- [Features](#features)
+  
+- [Models](#models)
+  
+- [Code Snippets](#examples)
+  
+
 ## Requirements
 
 To use the SDK the following requirements must be met:
@@ -60,7 +73,7 @@ $ pod update
   - On the shelf customisble Apple pay button.
   - Handles Apple payment authorization and processing.
   - Theme and title are customisable.
-  - ![SimulatorScreenShotiPhone1120200415at095017](https://i.ibb.co/2t4x2YV/Simulator-Screen-Shot-i-Phone-11-2020-04-15-at-09-50-17.png)
+  - ![SimulatorScreenShotiPhone1120200415at095017](https://github.com/OsamaRabie/TapApplePaySDK/blob/main/ezgif-4-55462327d2.gif)
 - Using your UI:
   
   - You can start `TapApplePaySDK` from your own UI at the point you see convient.
