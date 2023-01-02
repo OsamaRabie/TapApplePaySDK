@@ -19,12 +19,31 @@
 		E84B8BC82941ED8E00DFCDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84B8BC62941ED8E00DFCDD1 /* LaunchScreen.storyboard */; };
 		E84B8BCE2941EDB000DFCDD1 /* tapapplepaysdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84B8BA72941ED1E00DFCDD1 /* tapapplepaysdk.framework */; };
 		E84B8BCF2941EDB000DFCDD1 /* tapapplepaysdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E84B8BA72941ED1E00DFCDD1 /* tapapplepaysdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E84B8BDB294238EC00DFCDD1 /* SDKSettingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BD9294238EC00DFCDD1 /* SDKSettingsData.swift */; };
-		E84B8BDC294238EC00DFCDD1 /* SDKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BDA294238EC00DFCDD1 /* SDKSettings.swift */; };
-		E84B8BDF2942391000DFCDD1 /* InternalSDKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BDD2942391000DFCDD1 /* InternalSDKSettings.swift */; };
-		E84B8BE02942391000DFCDD1 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BDE2942391000DFCDD1 /* Merchant.swift */; };
-		E84B8BE52942393200DFCDD1 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BE42942393200DFCDD1 /* Permissions.swift */; };
-		E84B8BE92942395E00DFCDD1 /* OptionallyIdentifiableWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B8BE82942395E00DFCDD1 /* OptionallyIdentifiableWithString.swift */; };
+		E8CD2E162962CD1A00BE400B /* TapApplePayButtonStyleOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2DFF2962CD1A00BE400B /* TapApplePayButtonStyleOutline.swift */; };
+		E8CD2E172962CD1A00BE400B /* TapApplePayPaymentNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E002962CD1A00BE400B /* TapApplePayPaymentNetwork.swift */; };
+		E8CD2E182962CD1A00BE400B /* TapApplePayStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E012962CD1A00BE400B /* TapApplePayStatus.swift */; };
+		E8CD2E192962CD1A00BE400B /* TapApplePayButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E022962CD1A00BE400B /* TapApplePayButtonType.swift */; };
+		E8CD2E1A2962CD1A00BE400B /* TapApplePayToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E042962CD1A00BE400B /* TapApplePayToken.swift */; };
+		E8CD2E1B2962CD1A00BE400B /* TapApplePayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E052962CD1A00BE400B /* TapApplePayRequest.swift */; };
+		E8CD2E1C2962CD1A00BE400B /* InternalSDKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E062962CD1A00BE400B /* InternalSDKSettings.swift */; };
+		E8CD2E1D2962CD1A00BE400B /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E072962CD1A00BE400B /* Permissions.swift */; };
+		E8CD2E1E2962CD1A00BE400B /* ApiErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E082962CD1A00BE400B /* ApiErrorModel.swift */; };
+		E8CD2E1F2962CD1A00BE400B /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E092962CD1A00BE400B /* Merchant.swift */; };
+		E8CD2E202962CD1A00BE400B /* TapApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E0B2962CD1A00BE400B /* TapApplePayButton.swift */; };
+		E8CD2E212962CD1A00BE400B /* TapApplePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E0C2962CD1A00BE400B /* TapApplePay.swift */; };
+		E8CD2E222962CD1A00BE400B /* TapApplePayButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CD2E0E2962CD1A00BE400B /* TapApplePayButton.xib */; };
+		E8CD2E232962CD1A00BE400B /* TapNetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E112962CD1A00BE400B /* TapNetworkPath.swift */; };
+		E8CD2E242962CD1A00BE400B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E122962CD1A00BE400B /* NetworkManager.swift */; };
+		E8CD2E252962CD1A00BE400B /* NetworkManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E132962CD1A00BE400B /* NetworkManagerExtension.swift */; };
+		E8CD2E262962CD1A00BE400B /* TapCreateTokenWithApplePayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E142962CD1A00BE400B /* TapCreateTokenWithApplePayRequest.swift */; };
+		E8CD2E272962CD1A00BE400B /* FlurryLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E152962CD1A00BE400B /* FlurryLogger.swift */; };
+		E8CD2E332962CD7300BE400B /* YBTextPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E2A2962CD7300BE400B /* YBTextPickerDataModel.swift */; };
+		E8CD2E342962CD7300BE400B /* YBTextPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CD2E2C2962CD7300BE400B /* YBTextPickerCell.xib */; };
+		E8CD2E352962CD7300BE400B /* YBTextPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E2D2962CD7300BE400B /* YBTextPickerCell.swift */; };
+		E8CD2E362962CD7300BE400B /* YBTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD2E2E2962CD7300BE400B /* YBTextPicker.swift */; };
+		E8CD2E372962CD7300BE400B /* YBTextPicker_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CD2E302962CD7300BE400B /* YBTextPicker_checked.png */; };
+		E8CD2E382962CD7300BE400B /* YBTextPicker_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CD2E312962CD7300BE400B /* YBTextPicker_unchecked.png */; };
+		E8CD2E392962CD7300BE400B /* YBTextPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CD2E322962CD7300BE400B /* YBTextPicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +87,32 @@
 		E84B8BC42941ED8E00DFCDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E84B8BC72941ED8E00DFCDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E84B8BC92941ED8E00DFCDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E84B8BD9294238EC00DFCDD1 /* SDKSettingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKSettingsData.swift; sourceTree = "<group>"; };
-		E84B8BDA294238EC00DFCDD1 /* SDKSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKSettings.swift; sourceTree = "<group>"; };
-		E84B8BDD2942391000DFCDD1 /* InternalSDKSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalSDKSettings.swift; sourceTree = "<group>"; };
-		E84B8BDE2942391000DFCDD1 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
-		E84B8BE42942393200DFCDD1 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
-		E84B8BE82942395E00DFCDD1 /* OptionallyIdentifiableWithString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionallyIdentifiableWithString.swift; sourceTree = "<group>"; };
+		E8CD2DFF2962CD1A00BE400B /* TapApplePayButtonStyleOutline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayButtonStyleOutline.swift; sourceTree = "<group>"; };
+		E8CD2E002962CD1A00BE400B /* TapApplePayPaymentNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayPaymentNetwork.swift; sourceTree = "<group>"; };
+		E8CD2E012962CD1A00BE400B /* TapApplePayStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayStatus.swift; sourceTree = "<group>"; };
+		E8CD2E022962CD1A00BE400B /* TapApplePayButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayButtonType.swift; sourceTree = "<group>"; };
+		E8CD2E042962CD1A00BE400B /* TapApplePayToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayToken.swift; sourceTree = "<group>"; };
+		E8CD2E052962CD1A00BE400B /* TapApplePayRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayRequest.swift; sourceTree = "<group>"; };
+		E8CD2E062962CD1A00BE400B /* InternalSDKSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalSDKSettings.swift; sourceTree = "<group>"; };
+		E8CD2E072962CD1A00BE400B /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		E8CD2E082962CD1A00BE400B /* ApiErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiErrorModel.swift; sourceTree = "<group>"; };
+		E8CD2E092962CD1A00BE400B /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		E8CD2E0B2962CD1A00BE400B /* TapApplePayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePayButton.swift; sourceTree = "<group>"; };
+		E8CD2E0C2962CD1A00BE400B /* TapApplePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapApplePay.swift; sourceTree = "<group>"; };
+		E8CD2E0E2962CD1A00BE400B /* TapApplePayButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapApplePayButton.xib; sourceTree = "<group>"; };
+		E8CD2E112962CD1A00BE400B /* TapNetworkPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapNetworkPath.swift; sourceTree = "<group>"; };
+		E8CD2E122962CD1A00BE400B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E8CD2E132962CD1A00BE400B /* NetworkManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerExtension.swift; sourceTree = "<group>"; };
+		E8CD2E142962CD1A00BE400B /* TapCreateTokenWithApplePayRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapCreateTokenWithApplePayRequest.swift; sourceTree = "<group>"; };
+		E8CD2E152962CD1A00BE400B /* FlurryLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlurryLogger.swift; sourceTree = "<group>"; };
+		E8CD2E282962CD3400BE400B /* ApplePaySDKExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApplePaySDKExample.entitlements; sourceTree = "<group>"; };
+		E8CD2E2A2962CD7300BE400B /* YBTextPickerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPickerDataModel.swift; sourceTree = "<group>"; };
+		E8CD2E2C2962CD7300BE400B /* YBTextPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBTextPickerCell.xib; sourceTree = "<group>"; };
+		E8CD2E2D2962CD7300BE400B /* YBTextPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPickerCell.swift; sourceTree = "<group>"; };
+		E8CD2E2E2962CD7300BE400B /* YBTextPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPicker.swift; sourceTree = "<group>"; };
+		E8CD2E302962CD7300BE400B /* YBTextPicker_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_checked.png; sourceTree = "<group>"; };
+		E8CD2E312962CD7300BE400B /* YBTextPicker_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_unchecked.png; sourceTree = "<group>"; };
+		E8CD2E322962CD7300BE400B /* YBTextPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBTextPicker.xib; sourceTree = "<group>"; };
 		F75DFBC0D2E1CE68AE5665A4 /* Pods_ApplePaySDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplePaySDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,32 +171,20 @@
 		E84B8BA92941ED1E00DFCDD1 /* tapapplepaysdk */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BB42941ED5500DFCDD1 /* Assets */,
-				E84B8BB32941ED5000DFCDD1 /* Core */,
+				E8CD2E0D2962CD1A00BE400B /* Assets */,
+				E8CD2E0F2962CD1A00BE400B /* private */,
+				E8CD2DFD2962CD1A00BE400B /* public */,
 				E84B8BAA2941ED1E00DFCDD1 /* tapapplepaysdk.h */,
 				E84B8BAB2941ED1E00DFCDD1 /* tapapplepaysdk.docc */,
 			);
 			path = tapapplepaysdk;
 			sourceTree = "<group>";
 		};
-		E84B8BB32941ED5000DFCDD1 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E84B8BD5294238B100DFCDD1 /* API */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		E84B8BB42941ED5500DFCDD1 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		E84B8BBA2941ED8C00DFCDD1 /* ApplePaySDKExample */ = {
 			isa = PBXGroup;
 			children = (
+				E8CD2E292962CD7300BE400B /* YBTextPicker */,
+				E8CD2E282962CD3400BE400B /* ApplePaySDKExample.entitlements */,
 				E84B8BBB2941ED8C00DFCDD1 /* AppDelegate.swift */,
 				E84B8BBD2941ED8C00DFCDD1 /* SceneDelegate.swift */,
 				E84B8BBF2941ED8C00DFCDD1 /* ViewController.swift */,
@@ -178,81 +205,105 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E84B8BD5294238B100DFCDD1 /* API */ = {
+		E8CD2DFD2962CD1A00BE400B /* public */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BE62942394F00DFCDD1 /* Protocols */,
-				E84B8BE12942391D00DFCDD1 /* Enums */,
-				E84B8BD6294238B600DFCDD1 /* Models */,
+				E8CD2DFE2962CD1A00BE400B /* enums */,
+				E8CD2E032962CD1A00BE400B /* Models */,
+				E8CD2E0A2962CD1A00BE400B /* Controllers */,
 			);
-			path = API;
+			path = public;
 			sourceTree = "<group>";
 		};
-		E84B8BD6294238B600DFCDD1 /* Models */ = {
+		E8CD2DFE2962CD1A00BE400B /* enums */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BD8294238C200DFCDD1 /* Public */,
-				E84B8BD7294238BC00DFCDD1 /* Private */,
+				E8CD2DFF2962CD1A00BE400B /* TapApplePayButtonStyleOutline.swift */,
+				E8CD2E002962CD1A00BE400B /* TapApplePayPaymentNetwork.swift */,
+				E8CD2E012962CD1A00BE400B /* TapApplePayStatus.swift */,
+				E8CD2E022962CD1A00BE400B /* TapApplePayButtonType.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		E8CD2E032962CD1A00BE400B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD2E042962CD1A00BE400B /* TapApplePayToken.swift */,
+				E8CD2E052962CD1A00BE400B /* TapApplePayRequest.swift */,
+				E8CD2E062962CD1A00BE400B /* InternalSDKSettings.swift */,
+				E8CD2E072962CD1A00BE400B /* Permissions.swift */,
+				E8CD2E082962CD1A00BE400B /* ApiErrorModel.swift */,
+				E8CD2E092962CD1A00BE400B /* Merchant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E84B8BD7294238BC00DFCDD1 /* Private */ = {
+		E8CD2E0A2962CD1A00BE400B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BDD2942391000DFCDD1 /* InternalSDKSettings.swift */,
-				E84B8BDE2942391000DFCDD1 /* Merchant.swift */,
-				E84B8BDA294238EC00DFCDD1 /* SDKSettings.swift */,
-				E84B8BD9294238EC00DFCDD1 /* SDKSettingsData.swift */,
+				E8CD2E0B2962CD1A00BE400B /* TapApplePayButton.swift */,
+				E8CD2E0C2962CD1A00BE400B /* TapApplePay.swift */,
 			);
-			path = Private;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		E84B8BD8294238C200DFCDD1 /* Public */ = {
+		E8CD2E0D2962CD1A00BE400B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E8CD2E0E2962CD1A00BE400B /* TapApplePayButton.xib */,
 			);
-			path = Public;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		E84B8BE12942391D00DFCDD1 /* Enums */ = {
+		E8CD2E0F2962CD1A00BE400B /* private */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BE32942392800DFCDD1 /* Public */,
-				E84B8BE22942392200DFCDD1 /* Private */,
+				E8CD2E102962CD1A00BE400B /* Network */,
+				E8CD2E152962CD1A00BE400B /* FlurryLogger.swift */,
 			);
-			path = Enums;
+			path = private;
 			sourceTree = "<group>";
 		};
-		E84B8BE22942392200DFCDD1 /* Private */ = {
+		E8CD2E102962CD1A00BE400B /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BE42942393200DFCDD1 /* Permissions.swift */,
+				E8CD2E112962CD1A00BE400B /* TapNetworkPath.swift */,
+				E8CD2E122962CD1A00BE400B /* NetworkManager.swift */,
+				E8CD2E132962CD1A00BE400B /* NetworkManagerExtension.swift */,
+				E8CD2E142962CD1A00BE400B /* TapCreateTokenWithApplePayRequest.swift */,
 			);
-			path = Private;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		E84B8BE32942392800DFCDD1 /* Public */ = {
+		E8CD2E292962CD7300BE400B /* YBTextPicker */ = {
 			isa = PBXGroup;
 			children = (
+				E8CD2E2A2962CD7300BE400B /* YBTextPickerDataModel.swift */,
+				E8CD2E2B2962CD7300BE400B /* YBTextPickerCell */,
+				E8CD2E2E2962CD7300BE400B /* YBTextPicker.swift */,
+				E8CD2E2F2962CD7300BE400B /* Assets */,
+				E8CD2E322962CD7300BE400B /* YBTextPicker.xib */,
 			);
-			path = Public;
+			path = YBTextPicker;
 			sourceTree = "<group>";
 		};
-		E84B8BE62942394F00DFCDD1 /* Protocols */ = {
+		E8CD2E2B2962CD7300BE400B /* YBTextPickerCell */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BE72942395400DFCDD1 /* Private */,
+				E8CD2E2C2962CD7300BE400B /* YBTextPickerCell.xib */,
+				E8CD2E2D2962CD7300BE400B /* YBTextPickerCell.swift */,
 			);
-			path = Protocols;
+			path = YBTextPickerCell;
 			sourceTree = "<group>";
 		};
-		E84B8BE72942395400DFCDD1 /* Private */ = {
+		E8CD2E2F2962CD7300BE400B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E84B8BE82942395E00DFCDD1 /* OptionallyIdentifiableWithString.swift */,
+				E8CD2E302962CD7300BE400B /* YBTextPicker_checked.png */,
+				E8CD2E312962CD7300BE400B /* YBTextPicker_unchecked.png */,
 			);
-			path = Private;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CD2E222962CD1A00BE400B /* TapApplePayButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +410,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CD2E382962CD7300BE400B /* YBTextPicker_unchecked.png in Resources */,
 				E84B8BC82941ED8E00DFCDD1 /* LaunchScreen.storyboard in Resources */,
 				E84B8BC52941ED8E00DFCDD1 /* Assets.xcassets in Resources */,
 				E84B8BC32941ED8C00DFCDD1 /* Main.storyboard in Resources */,
+				E8CD2E342962CD7300BE400B /* YBTextPickerCell.xib in Resources */,
+				E8CD2E372962CD7300BE400B /* YBTextPicker_checked.png in Resources */,
+				E8CD2E392962CD7300BE400B /* YBTextPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +491,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E84B8BDF2942391000DFCDD1 /* InternalSDKSettings.swift in Sources */,
+				E8CD2E172962CD1A00BE400B /* TapApplePayPaymentNetwork.swift in Sources */,
+				E8CD2E232962CD1A00BE400B /* TapNetworkPath.swift in Sources */,
+				E8CD2E1B2962CD1A00BE400B /* TapApplePayRequest.swift in Sources */,
+				E8CD2E162962CD1A00BE400B /* TapApplePayButtonStyleOutline.swift in Sources */,
+				E8CD2E212962CD1A00BE400B /* TapApplePay.swift in Sources */,
+				E8CD2E192962CD1A00BE400B /* TapApplePayButtonType.swift in Sources */,
+				E8CD2E1D2962CD1A00BE400B /* Permissions.swift in Sources */,
+				E8CD2E262962CD1A00BE400B /* TapCreateTokenWithApplePayRequest.swift in Sources */,
+				E8CD2E1C2962CD1A00BE400B /* InternalSDKSettings.swift in Sources */,
 				E84B8BAC2941ED1E00DFCDD1 /* tapapplepaysdk.docc in Sources */,
-				E84B8BE92942395E00DFCDD1 /* OptionallyIdentifiableWithString.swift in Sources */,
-				E84B8BDB294238EC00DFCDD1 /* SDKSettingsData.swift in Sources */,
-				E84B8BDC294238EC00DFCDD1 /* SDKSettings.swift in Sources */,
-				E84B8BE52942393200DFCDD1 /* Permissions.swift in Sources */,
-				E84B8BE02942391000DFCDD1 /* Merchant.swift in Sources */,
+				E8CD2E202962CD1A00BE400B /* TapApplePayButton.swift in Sources */,
+				E8CD2E272962CD1A00BE400B /* FlurryLogger.swift in Sources */,
+				E8CD2E252962CD1A00BE400B /* NetworkManagerExtension.swift in Sources */,
+				E8CD2E1F2962CD1A00BE400B /* Merchant.swift in Sources */,
+				E8CD2E1E2962CD1A00BE400B /* ApiErrorModel.swift in Sources */,
+				E8CD2E242962CD1A00BE400B /* NetworkManager.swift in Sources */,
+				E8CD2E182962CD1A00BE400B /* TapApplePayStatus.swift in Sources */,
+				E8CD2E1A2962CD1A00BE400B /* TapApplePayToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +518,10 @@
 			files = (
 				E84B8BC02941ED8C00DFCDD1 /* ViewController.swift in Sources */,
 				E84B8BBC2941ED8C00DFCDD1 /* AppDelegate.swift in Sources */,
+				E8CD2E352962CD7300BE400B /* YBTextPickerCell.swift in Sources */,
 				E84B8BBE2941ED8C00DFCDD1 /* SceneDelegate.swift in Sources */,
+				E8CD2E332962CD7300BE400B /* YBTextPickerDataModel.swift in Sources */,
+				E8CD2E362962CD7300BE400B /* YBTextPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +742,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApplePaySDKExample/ApplePaySDKExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G46S76PUH4;
@@ -703,6 +774,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApplePaySDKExample/ApplePaySDKExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G46S76PUH4;
